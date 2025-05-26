@@ -22,7 +22,8 @@ test.beforeEach(async () => {
 test("Bookshelves", async () => {
   const product = new Products(page);
   await test.step("Click BookShelves", async () => {
-    await home.clickProduct("Bookshelves");
+    //reusability of the code with differnt inputs
+    await home.clickProduct(input.searchProduct);
     await product.closePopup();
     await page.waitForTimeout(2000)
   });

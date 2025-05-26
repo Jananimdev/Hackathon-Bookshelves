@@ -1,5 +1,6 @@
 {
     "priceForFiltering": "15000",
     "searchInput": "Birthday",
-    "invalidEmail": "dhinesh@123"
+    "invalidEmail": "dhinesh@123",
+    "searchProduct":"Bookshelves"
 }
