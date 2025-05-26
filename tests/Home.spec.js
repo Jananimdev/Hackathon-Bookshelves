@@ -67,5 +67,6 @@ test("Giftcards", async () => {
     await product.enterEmail(input.invalidEmail);
     await page2.keyboard.press("Tab");
     await product.getEmailError();
+    await page.screenshot({path:'screenshot/error.png'});
   });
 });
