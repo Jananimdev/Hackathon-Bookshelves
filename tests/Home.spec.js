@@ -37,6 +37,7 @@ test("Bookshelves", async () => {
   });
   await test.step("Get BookShelves Deatils", async () => {
     await product.getProducts();
+    await page.screenshot({path:'screenshot/products.png'});
   });
 });
 
@@ -45,6 +46,7 @@ test("Display collections", async () => {
   await test.step("Get Collection List", async () => {
     await home.hoverCollection();
     await home.getListItems();
+    await page.screenshot({path:'screenshot/collections.png'});
   });
 });
 
