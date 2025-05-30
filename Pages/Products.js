@@ -14,7 +14,7 @@ class Products {
     await this.page.waitForSelector(".productlist.withdivider li", { state: 'visible' }); 
   }
 
-  async clickStorageType() {
+  async clickStorageType() { 
     const storageTypeDropdown = this.page.locator("//li[@data-group='storage type']");
     const storageType = this.page.locator("#filters_storage_type_Open");
     await storageTypeDropdown.hover();
