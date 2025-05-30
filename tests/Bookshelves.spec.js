@@ -43,5 +43,6 @@ test("Bookshelves Functionality", async () => {
 
   await test.step("Retrieve and save Bookshelves details", async () => {
     await product.getProducts();
+    await page.screenshot({ path: 'screenshot/products.png' });
   });
 });

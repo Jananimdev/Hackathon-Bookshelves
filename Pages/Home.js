@@ -29,6 +29,7 @@ class Home {
 
   async hoverCollection(navItemText) {
     const navItem = this.page.locator(`.topnav_item:has(span.topnav_itemname:text("${navItemText}"))`);
+    await navItem.screenshot({path:'screenshot/collections.png'});
     await navItem.hover();
     await this.getListItems(navItem);
   }
