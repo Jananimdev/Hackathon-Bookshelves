@@ -1,5 +1,5 @@
 
-# Playwright
+# Playwright to ignore this files in the git
 node_modules/
 /test-results/
 /playwright-report/

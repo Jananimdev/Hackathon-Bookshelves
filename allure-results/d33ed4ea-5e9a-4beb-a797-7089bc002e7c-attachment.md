@@ -1,0 +1,1120 @@
+# Test info
+
+- Name: Giftcards
+- Location: C:\Users\2398048\OneDrive - Cognizant\Desktop\Hack-Final\Hackathon-Bookshelves\tests\Home.spec.js:47:1
+
+# Error details
+
+```
+Error: page.screenshot: Test timeout of 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+    at C:\Users\2398048\OneDrive - Cognizant\Desktop\Hack-Final\Hackathon-Bookshelves\tests\Home.spec.js:72:16
+    at C:\Users\2398048\OneDrive - Cognizant\Desktop\Hack-Final\Hackathon-Bookshelves\tests\Home.spec.js:68:3
+```
+
+# Page snapshot
+
+```yaml
+- banner:
+  - list:
+    - listitem:
+      - link "Help":
+        - /url: /help
+        - img
+        - text: Help
+    - listitem:
+      - link "Track Order":
+        - /url: /orders
+        - img
+        - text: Track Order
+  - list:
+    - listitem:
+      - link "Become a Franchisee":
+        - /url: https://forms.gle/CmpM3YQ25JkWXiNR7
+      - text: New
+    - listitem:
+      - link "Find a Store":
+        - /url: ../../store-cities?src=header
+    - listitem:
+      - link "Bulk Orders":
+        - /url: ../../../institutional-business?src=header
+    - listitem:
+      - link "UL Services":
+        - /url: ../../../ul-services?src=header
+  - link:
+    - /url: /
+    - figure:
+      - img
+      - img
+  - searchbox
+  - searchbox "Search": Birthday
+  - button ""
+  - list:
+    - listitem:
+      - link "Track Order":
+        - /url: /orders?src=track-order
+        - img
+    - listitem:
+      - img
+    - listitem:
+      - link "0":
+        - /url: /wishlist?src=header
+        - img
+        - text: "0"
+    - listitem:
+      - link "0":
+        - /url: /cart?src=header
+        - img
+        - text: "0"
+  - navigation:
+    - list:
+      - listitem: New Collection
+      - listitem: Deal Zone
+      - listitem: Sofas & Recliners
+      - listitem: Living
+      - listitem: Bedroom & Mattresses
+      - listitem: Dining
+      - listitem: Storage Furniture
+      - listitem: Study
+      - listitem: Lighting & Decor
+      - listitem: Interiors
+      - listitem: Stores
+- complementary
+- heading "Search results for 'Birthday'" [level=2]
+- text: (71 Products) Filters - Search results for 'Birthday' (71 Products)
+- list:
+  - listitem: Category
+  - listitem: Price
+- checkbox "Exclude Out Of Stock"
+- text: Exclude Out Of Stock Sort By Recommended
+- list:
+  - listitem:
+    - link "Birthday Design Oliver Solid Wood Ottoman":
+      - /url: /products/oliver-solid-wood-ottoman-jjxxot62ml10395?sku=JJSTOT62ML10395&src=room
+      - img "Birthday Design Oliver Solid Wood Ottoman"
+    - text: 26% Off
+    - link "Oliver Solid Wood Ottoman By Globally Indian ₹3,637 ₹2,691 | EMI from ₹131":
+      - /url: /products/oliver-solid-wood-ottoman-jjxxot62ml10395?sku=JJSTOT62ML10395&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Emmett Solid Wood Ottoman":
+      - /url: /products/emmett-solid-wood-ottoman-jjxxot62ml10407?sku=JJSTOT62ML10407&src=room
+      - img "Birthday Design Emmett Solid Wood Ottoman"
+    - text: 26% Off
+    - link "Emmett Solid Wood Ottoman By Globally Indian ₹3,637 ₹2,691 | EMI from ₹131":
+      - /url: /products/emmett-solid-wood-ottoman-jjxxot62ml10407?sku=JJSTOT62ML10407&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Xavier Solid Wood Ottoman":
+      - /url: /products/xavier-solid-wood-ottoman-jjxxot62ml10393?sku=JJSTOT62ML10393&src=room
+      - img "Birthday Design Xavier Solid Wood Ottoman"
+    - text: 30% Off
+    - link "Xavier Solid Wood Ottoman By Globally Indian ₹3,637 ₹2,545 | EMI from ₹124":
+      - /url: /products/xavier-solid-wood-ottoman-jjxxot62ml10393?sku=JJSTOT62ML10393&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Dark Brown Glass Wall Mirror":
+      - /url: /products/lucas-wall-mirror?sku=VDWDWA71DB19502&src=room
+      - img "Birthday Design Dark Brown Glass Wall Mirror"
+    - text: 62% Off
+    - link "Dark Brown Glass Wall Mirror By Elegant Arts & Frames ₹3,090 ₹1,174 | EMI from ₹57":
+      - /url: /products/lucas-wall-mirror?sku=VDWDWA71DB19502&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Henry Solid Wood Ottoman - Set of 2 (Green)":
+      - /url: /products/henry-solid-wood-ottoman-set-of-2-jjxxot62gr10413?sku=JJSTOT62GR10413&src=room
+      - img "Birthday Design Henry Solid Wood Ottoman - Set of 2 (Green)"
+    - text: 28% Off
+    - link "Henry Solid Wood Ottoman - Set of 2 (Green) By Globally Indian ₹5,914 ₹4,258 | EMI from ₹207":
+      - /url: /products/henry-solid-wood-ottoman-set-of-2-jjxxot62gr10413?sku=JJSTOT62GR10413&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Ryder Solid Wood Ottoman (Beige)":
+      - /url: /products/ryder-solid-wood-ottoman-jjxxot62be10389?sku=JJSTOT62BE10389&src=room
+      - img "Birthday Design Ryder Solid Wood Ottoman (Beige)"
+    - text: 15% Off
+    - link "Ryder Solid Wood Ottoman (Beige) By Globally Indian ₹2,992 ₹2,543 | EMI from ₹124":
+      - /url: /products/ryder-solid-wood-ottoman-jjxxot62be10389?sku=JJSTOT62BE10389&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Nolan Solid Wood Ottoman - Set of 2":
+      - /url: /products/nolan-solid-wood-ottoman-set-of-2-jjxxot62ml10415?sku=JJSTOT62ML10415&src=room
+      - img "Birthday Design Nolan Solid Wood Ottoman - Set of 2"
+    - text: 30% Off
+    - link "Nolan Solid Wood Ottoman - Set of 2 By Globally Indian ₹5,914 ₹4,139 | EMI from ₹201":
+      - /url: /products/nolan-solid-wood-ottoman-set-of-2-jjxxot62ml10415?sku=JJSTOT62ML10415&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Cream, Brown & Black Glass Wall Mirror":
+      - /url: /products/henry-wall-mirror?sku=VDWDWA71ML19504&src=room
+      - img "Birthday Design Cream, Brown & Black Glass Wall Mirror"
+    - text: 64% Off
+    - link "Cream, Brown & Black Glass Wall Mirror By Elegant Arts & Frames ₹4,656 ₹1,676 | EMI from ₹82":
+      - /url: /products/henry-wall-mirror?sku=VDWDWA71ML19504&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Darkbrown, Black Glass Wall Mirror":
+      - /url: /products/logan-wall-mirror?sku=VDWDWA71DB19510&src=room
+      - img "Birthday Design Darkbrown, Black Glass Wall Mirror"
+    - text: 65% Off
+    - link "Darkbrown, Black Glass Wall Mirror By Elegant Arts & Frames ₹17,315 ₹6,060 | EMI from ₹291":
+      - /url: /products/logan-wall-mirror?sku=VDWDWA71DB19510&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Cream, White & Light Brown Glass Wall Mirror":
+      - /url: /products/callie-wall-mirror?sku=VDWDWA71ML19524&src=room
+      - img "Birthday Design Cream, White & Light Brown Glass Wall Mirror"
+    - text: 63% Off
+    - link "Cream, White & Light Brown Glass Wall Mirror By Elegant Arts & Frames ₹21,267 ₹7,868 | EMI from ₹378":
+      - /url: /products/callie-wall-mirror?sku=VDWDWA71ML19524&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Silas Solid Wood Ottoman (Red)":
+      - /url: /products/silas-solid-wood-ottoman-jjxxot62rd10379?sku=JJSTOT62RD10379&src=room
+      - img "Birthday Design Silas Solid Wood Ottoman (Red)"
+    - text: 26% Off
+    - link "Silas Solid Wood Ottoman (Red) By Globally Indian ₹3,637 ₹2,691 | EMI from ₹131":
+      - /url: /products/silas-solid-wood-ottoman-jjxxot62rd10379?sku=JJSTOT62RD10379&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Eli Solid Wood Ottoman (Blue)":
+      - /url: /products/eli-solid-wood-ottoman-jjxxot62bl10449?sku=JJSTOT62BL10449&src=room
+      - img "Birthday Design Eli Solid Wood Ottoman (Blue)"
+    - text: 26% Off
+    - link "Eli Solid Wood Ottoman (Blue) By Globally Indian ₹5,237 ₹3,875 | EMI from ₹188":
+      - /url: /products/eli-solid-wood-ottoman-jjxxot62bl10449?sku=JJSTOT62BL10449&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Aurelia Solid Wood Ottoman - Set of 2 (Blue)":
+      - /url: /products/aurelia-solid-wood-ottoman-set-of-2-jjxxot62bl10412?sku=JJSTOT62BL10412&src=room
+      - img "Birthday Design Aurelia Solid Wood Ottoman - Set of 2 (Blue)"
+    - text: 23% Off
+    - link "Aurelia Solid Wood Ottoman - Set of 2 (Blue) By Globally Indian ₹5,914 ₹4,553 | EMI from ₹221":
+      - /url: /products/aurelia-solid-wood-ottoman-set-of-2-jjxxot62bl10412?sku=JJSTOT62BL10412&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Julian Solid Wood Ottoman (Blue)":
+      - /url: /products/julian-solid-wood-ottoman-jjxxot62bl10381?sku=JJSTOT62BL10381&src=room
+      - img "Birthday Design Julian Solid Wood Ottoman (Blue)"
+    - text: 30% Off
+    - link "Julian Solid Wood Ottoman (Blue) By Globally Indian ₹3,637 ₹2,545 | EMI from ₹124":
+      - /url: /products/julian-solid-wood-ottoman-jjxxot62bl10381?sku=JJSTOT62BL10381&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Milo Solid Wood Ottoman":
+      - /url: /products/milo-solid-wood-ottoman-jjxxot62ml10385?sku=JJSTOT62ML10385&src=room
+      - img "Birthday Design Milo Solid Wood Ottoman"
+    - text: 26% Off
+    - link "Milo Solid Wood Ottoman By Globally Indian ₹3,637 ₹2,691 | EMI from ₹131":
+      - /url: /products/milo-solid-wood-ottoman-jjxxot62ml10385?sku=JJSTOT62ML10385&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Benjamin Solid Wood Ottoman":
+      - /url: /products/benjamin-solid-wood-ottoman-jjxxot62ml10401?sku=JJSTOT62ML10401&src=room
+      - img "Birthday Design Benjamin Solid Wood Ottoman"
+    - text: 26% Off
+    - link "Benjamin Solid Wood Ottoman By Globally Indian ₹3,637 ₹2,691 | EMI from ₹131":
+      - /url: /products/benjamin-solid-wood-ottoman-jjxxot62ml10401?sku=JJSTOT62ML10401&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design William Solid Wood Ottoman":
+      - /url: /products/william-solid-wood-ottoman-jjxxot62ml10405?sku=JJSTOT62ML10405&src=room
+      - img "Birthday Design William Solid Wood Ottoman"
+    - text: 26% Off
+    - link "William Solid Wood Ottoman By Globally Indian ₹3,637 ₹2,691 | EMI from ₹131":
+      - /url: /products/william-solid-wood-ottoman-jjxxot62ml10405?sku=JJSTOT62ML10405&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Ethan Solid Wood Ottoman (Grey)":
+      - /url: /products/ethan-solid-wood-ottoman-jjxxot62gy10397?sku=JJSTOT62GY10397&src=room
+      - img "Birthday Design Ethan Solid Wood Ottoman (Grey)"
+    - text: 26% Off
+    - link "Ethan Solid Wood Ottoman (Grey) By Globally Indian ₹3,637 ₹2,691 | EMI from ₹131":
+      - /url: /products/ethan-solid-wood-ottoman-jjxxot62gy10397?sku=JJSTOT62GY10397&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Seren Solid Wood Ottoman - Set of 2 (Red)":
+      - /url: /products/seren-solid-wood-ottoman-set-of-2-jjxxot62rd10414?sku=JJSTOT62RD10414&src=room
+      - img "Birthday Design Seren Solid Wood Ottoman - Set of 2 (Red)"
+    - text: 23% Off
+    - link "Seren Solid Wood Ottoman - Set of 2 (Red) By Globally Indian ₹5,914 ₹4,553 | EMI from ₹221":
+      - /url: /products/seren-solid-wood-ottoman-set-of-2-jjxxot62rd10414?sku=JJSTOT62RD10414&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Evangeline Solid Wood Ottoman - Set of 3 (Blue)":
+      - /url: /products/evangeline-solid-wood-ottoman-set-of-3-jjxxot62bl10428?sku=JJSTOT62BL10428&src=room
+      - img "Birthday Design Evangeline Solid Wood Ottoman - Set of 3 (Blue)"
+    - text: 30% Off
+    - link "Evangeline Solid Wood Ottoman - Set of 3 (Blue) By Globally Indian ₹10,182 ₹7,127 | EMI from ₹343":
+      - /url: /products/evangeline-solid-wood-ottoman-set-of-3-jjxxot62bl10428?sku=JJSTOT62BL10428&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Astrid Solid Wood Ottoman (Grey)":
+      - /url: /products/astrid-solid-wood-ottoman-jjxxot62gy10444?sku=JJSTOT62GY10444&src=room
+      - img "Birthday Design Astrid Solid Wood Ottoman (Grey)"
+    - text: 30% Off
+    - link "Astrid Solid Wood Ottoman (Grey) By Globally Indian ₹5,237 ₹3,665 | EMI from ₹178":
+      - /url: /products/astrid-solid-wood-ottoman-jjxxot62gy10444?sku=JJSTOT62GY10444&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Asher Solid Wood Ottoman":
+      - /url: /products/asher-solid-wood-ottoman-jjxxot62ml10387?sku=JJSTOT62ML10387&src=room
+      - img "Birthday Design Asher Solid Wood Ottoman"
+    - text: 30% Off
+    - link "Asher Solid Wood Ottoman By Globally Indian ₹3,637 ₹2,545 | EMI from ₹124":
+      - /url: /products/asher-solid-wood-ottoman-jjxxot62ml10387?sku=JJSTOT62ML10387&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Finn Solid Wood Ottoman":
+      - /url: /products/finn-solid-wood-ottoman-jjxxot62ml10403?sku=JJSTOT62ML10403&src=room
+      - img "Birthday Design Finn Solid Wood Ottoman"
+    - text: 30% Off
+    - link "Finn Solid Wood Ottoman By Globally Indian ₹3,637 ₹2,545 | EMI from ₹124":
+      - /url: /products/finn-solid-wood-ottoman-jjxxot62ml10403?sku=JJSTOT62ML10403&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Serenity Solid Wood Ottoman - Set of 3 (Red)":
+      - /url: /products/serenity-solid-wood-ottoman-set-of-3-jjxxot62rd10434?sku=JJSTOT62RD10434&src=room
+      - img "Birthday Design Serenity Solid Wood Ottoman - Set of 3 (Red)"
+    - text: 30% Off
+    - link "Serenity Solid Wood Ottoman - Set of 3 (Red) By Globally Indian ₹10,182 ₹7,127 | EMI from ₹343":
+      - /url: /products/serenity-solid-wood-ottoman-set-of-3-jjxxot62rd10434?sku=JJSTOT62RD10434&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Caleb Solid Wood Ottoman":
+      - /url: /products/caleb-solid-wood-ottoman-jjxxot62ml10399?sku=JJSTOT62ML10399&src=room
+      - img "Birthday Design Caleb Solid Wood Ottoman"
+    - text: 10% Off
+    - link "Caleb Solid Wood Ottoman By Globally Indian ₹2,992 ₹2,692 | EMI from ₹131":
+      - /url: /products/caleb-solid-wood-ottoman-jjxxot62ml10399?sku=JJSTOT62ML10399&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Aria Solid Wood Ottoman (Blue)":
+      - /url: /products/aria-solid-wood-ottoman-jjxxot62bl10382?sku=JJSTOT62BL10382&src=room
+      - img "Birthday Design Aria Solid Wood Ottoman (Blue)"
+    - text: 26% Off
+    - link "Aria Solid Wood Ottoman (Blue) By Globally Indian ₹3,637 ₹2,691 | EMI from ₹131":
+      - /url: /products/aria-solid-wood-ottoman-jjxxot62bl10382?sku=JJSTOT62BL10382&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Ophelia Solid Wood Ottoman":
+      - /url: /products/ophelia-solid-wood-ottoman-jjxxot62ml10396?sku=JJSTOT62ML10396&src=room
+      - img "Birthday Design Ophelia Solid Wood Ottoman"
+    - text: 26% Off
+    - link "Ophelia Solid Wood Ottoman By Globally Indian ₹3,637 ₹2,691 | EMI from ₹131":
+      - /url: /products/ophelia-solid-wood-ottoman-jjxxot62ml10396?sku=JJSTOT62ML10396&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Isaac Solid Wood Ottoman - Set of 2":
+      - /url: /products/isaac-solid-wood-ottoman-set-of-2-jjxxot62ml10423?sku=JJSTOT62ML10423&src=room
+      - img "Birthday Design Isaac Solid Wood Ottoman - Set of 2"
+    - text: 23% Off
+    - link "Isaac Solid Wood Ottoman - Set of 2 By Globally Indian ₹5,914 ₹4,553 | EMI from ₹221":
+      - /url: /products/isaac-solid-wood-ottoman-set-of-2-jjxxot62ml10423?sku=JJSTOT62ML10423&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Evangeline Solid Wood Ottoman":
+      - /url: /products/evangeline-solid-wood-ottoman-jjxxot62ml10394?sku=JJSTOT62ML10394&src=room
+      - img "Birthday Design Evangeline Solid Wood Ottoman"
+    - text: 30% Off
+    - link "Evangeline Solid Wood Ottoman By Globally Indian ₹3,637 ₹2,545 | EMI from ₹124":
+      - /url: /products/evangeline-solid-wood-ottoman-jjxxot62ml10394?sku=JJSTOT62ML10394&src=room
+    - text: 
+  - listitem:
+    - link "Birthday Design Seraphina Solid Wood Ottoman (Yellow)":
+      - /url: /products/seraphina-solid-wood-ottoman-jjxxot62yl10384?sku=JJSTOT62YL10384&src=room
+      - img "Birthday Design Seraphina Solid Wood Ottoman (Yellow)"
+    - text: 30% Off
+    - link "Seraphina Solid Wood Ottoman (Yellow) By Globally Indian ₹3,637 ₹2,545 | EMI from ₹124":
+      - /url: /products/seraphina-solid-wood-ottoman-jjxxot62yl10384?sku=JJSTOT62YL10384&src=room
+    - text: 
+- text: + +
+- button "Compare"
+- text: Browse Popular Categories
+- list:
+  - listitem:
+    - link "Living Living 5086+ Options starting from ₹466":
+      - /url: /living-room-furniture?src=g_footer_interlink
+      - img "Living"
+      - text: Living 5086+ Options starting from ₹466
+  - listitem:
+    - link "Dining Dining 1280+ Options starting from ₹384":
+      - /url: /dining-furniture?src=g_footer_interlink
+      - img "Dining"
+      - text: Dining 1280+ Options starting from ₹384
+  - listitem:
+    - link "Bedroom & Mattresses Bedroom & Mattresses 8324+ Options starting from ₹594":
+      - /url: /bedroom-furniture?src=g_footer_interlink
+      - img "Bedroom & Mattresses"
+      - text: Bedroom & Mattresses 8324+ Options starting from ₹594
+  - listitem:
+    - link "Storage Furniture Storage Furniture 1498+ Options starting from ₹466":
+      - /url: /storage?src=g_footer_interlink
+      - img "Storage Furniture"
+      - text: Storage Furniture 1498+ Options starting from ₹466
+  - listitem:
+    - link "Lighting & Decor Lighting & Decor 6023+ Options starting from ₹79":
+      - /url: /home-decor?src=g_footer_interlink
+      - img "Lighting & Decor"
+      - text: Lighting & Decor 6023+ Options starting from ₹79
+  - listitem:
+    - link "Study Study 927+ Options starting from ₹466":
+      - /url: /study?src=g_footer_interlink
+      - img "Study"
+      - text: Study 927+ Options starting from ₹466
+  - listitem:
+    - link "Deal Zone Deal Zone 1784+ Options starting from ₹598":
+      - /url: /sale?src=g_footer_interlink
+      - img "Deal Zone"
+      - text: Deal Zone 1784+ Options starting from ₹598
+  - listitem:
+    - link "New Collection New Collection 2101+ Options starting from ₹53":
+      - /url: /collections-new?src=g_footer_interlink
+      - img "New Collection"
+      - text: New Collection 2101+ Options starting from ₹53
+  - listitem:
+    - link "Stores Stores 1132+ Options starting from ₹53":
+      - /url: /furniture-stores?src=g_footer_interlink
+      - img "Stores"
+      - text: Stores 1132+ Options starting from ₹53
+  - listitem:
+    - link "Sofas & Recliners Sofas & Recliners 2824+ Options starting from ₹472":
+      - /url: /sofas-and-recliners?src=g_footer_interlink
+      - img "Sofas & Recliners"
+      - text: Sofas & Recliners 2824+ Options starting from ₹472
+  - listitem:
+    - link "Living Interiors 5086+ Options starting from ₹466":
+      - /url: /interiors?src=g_footer_interlink
+      - img "Living"
+      - text: Interiors 5086+ Options starting from ₹466
+- contentinfo:
+  - text: "The Company:"
+  - list:
+    - listitem:
+      - link "About Us":
+        - /url: /about-urban-ladder?src=g_footer
+    - listitem:
+      - link "Help":
+        - /url: /help?src=g_footer
+    - listitem:
+      - link "Blog":
+        - /url: /blog?src=g_footer
+    - listitem:
+      - link "Inside UL":
+        - /url: /inside-ul?src=g_footer
+  - list:
+    - listitem:
+      - link "Careers":
+        - /url: /careers?src=g_footer
+    - listitem:
+      - link "Press":
+        - /url: /press-coverage?src=g_footer
+    - listitem:
+      - link "Team":
+        - /url: https://www.linkedin.com/company/2482371/life/?src=g_footer
+    - listitem:
+      - link "Privacy Policy":
+        - /url: /privacy-policy?src=g_footer
+  - text: "More Information:"
+  - list:
+    - listitem:
+      - link "Fees and Payment":
+        - /url: /security-payments?src=g_footer
+    - listitem:
+      - link "Shipping & Delivery":
+        - /url: /shipping-delivery?src=g_footer
+    - listitem:
+      - link "Terms and Conditions":
+        - /url: /terms-of-use?src=g_footer
+    - listitem:
+      - link "Warranty, Return and Refund":
+        - /url: /terms-of-offer-for-sale?src=g_footer
+  - list:
+    - listitem:
+      - link "Contact Us":
+        - /url: /help/contact-us?src=g_footer
+    - listitem:
+      - link "Visit Us":
+        - /url: /furniture-stores?src=g_footer
+    - listitem:
+      - link "Buy In Bulk":
+        - /url: /buy-in-bulk?src=g_footer
+  - text: Explore More
+  - list:
+    - listitem:
+      - link "Refer & Earn":
+        - /url: /refer_and_earn?src=g_footer
+  - text: Address
+  - list:
+    - listitem: Reliance Retail Limited, 3rd Floor, Court House, Lokmanya Tilak Marg, Dhobi Talao, Mumbai- 400 002, Maharashtra, India
+    - listitem: "CIN: U01100MH1999PLC120563"
+  - text: "Connect With Us:"
+  - list:
+    - listitem:
+      - link " +91 80698 07777":
+        - /url: tel:+918069807777
+    - listitem:
+      - link "":
+        - /url: mailto:hello@urbanladder.com
+    - listitem:
+      - link "":
+        - /url: https://facebook.com/urbanladder
+    - listitem:
+      - link "":
+        - /url: https://twitter.com/UrbanLadder
+    - listitem:
+      - link "":
+        - /url: https://www.pinterest.com/urbanladder/
+    - listitem:
+      - link "":
+        - /url: https://youtube.com/user/urbanladder
+    - listitem:
+      - link "":
+        - /url: https://instagram.com/urbanladder/
+    - listitem:
+      - link "":
+        - /url: https://in.linkedin.com/company/urban-ladder
+  - text: "Download App:"
+  - link "Download Urban Ladder App from Apple Store":
+    - /url: https://itunes.apple.com/us/app/urban-ladder/id959886087
+    - img "Download Urban Ladder App from Apple Store"
+  - link "Download Urban Ladder App from Playstore":
+    - /url: https://play.google.com/store/apps/details?id=com.urbanladder.catalog
+    - img "Download Urban Ladder App from Playstore"
+  - text: "Popular Furniture Categories:"
+  - list:
+    - listitem:
+      - link "Bed":
+        - /url: /bed
+    - text: ","
+    - listitem:
+      - link "Beds By Design":
+        - /url: /all-beds
+    - text: ","
+    - listitem:
+      - link "Sofa Set":
+        - /url: /sofa-set
+    - text: ","
+    - listitem:
+      - link "Wooden Sofa":
+        - /url: /wooden-sofas
+    - text: ","
+    - listitem:
+      - link "Sofas By Design":
+        - /url: /sofa
+    - text: ","
+    - listitem:
+      - link "Sofa Cum Bed":
+        - /url: /sofa-cum-bed
+    - text: ","
+    - listitem:
+      - link "Double Bed":
+        - /url: /double-beds
+    - text: ","
+    - listitem:
+      - link "Single Bed":
+        - /url: /single-beds
+    - text: ","
+    - listitem:
+      - link "Queen Size Bed":
+        - /url: /queen-size-bed
+    - text: ","
+    - listitem:
+      - link "King Size Bed":
+        - /url: /king-size-bed
+    - text: ","
+    - listitem:
+      - link "Chair":
+        - /url: /chair
+    - text: ","
+    - listitem:
+      - link "Wooden Table":
+        - /url: /tables
+    - text: ","
+    - listitem:
+      - link "Study Table":
+        - /url: /study-table
+    - text: ","
+    - listitem:
+      - link "Study Chair":
+        - /url: /study-chair
+    - text: ","
+    - listitem:
+      - link "Wardrobe":
+        - /url: /wardrobes
+    - text: ","
+    - listitem:
+      - link "Chest of Drawers":
+        - /url: /chest-of-drawers
+    - text: ","
+    - listitem:
+      - link "Futon":
+        - /url: /futon
+    - text: ","
+    - listitem:
+      - link "Loveseat":
+        - /url: /loveseats
+    - text: ","
+    - listitem:
+      - link "Dining Table Set":
+        - /url: /dining-table-set
+    - text: ","
+    - listitem:
+      - link "Dining Chair":
+        - /url: /dining-chairs
+    - text: ","
+    - listitem:
+      - link "Bookshelves":
+        - /url: /bookshelf
+    - text: ","
+    - listitem:
+      - link "Shoe Rack":
+        - /url: /shoe-rack
+    - text: ","
+    - listitem:
+      - link "TV Units":
+        - /url: /tv-units
+    - text: ","
+    - listitem:
+      - link "Recliners":
+        - /url: /recliners
+    - text: ","
+    - listitem:
+      - link "Furniture":
+        - /url: /furniture
+    - text: ","
+    - listitem:
+      - link "Office Furniture":
+        - /url: /office-furniture
+    - text: ","
+    - listitem:
+      - link "Office Table":
+        - /url: /office-tables
+    - text: ","
+    - listitem:
+      - link "Office Chair":
+        - /url: /office-chairs
+    - text: ","
+    - listitem:
+      - link "2 Seater Sofa":
+        - /url: /two-seater-sofas
+    - text: ","
+    - listitem:
+      - link "TV Cupboard":
+        - /url: /tv-cupboard
+    - text: ","
+    - listitem:
+      - link "TV Showcase":
+        - /url: /tv-showcase
+    - text: ","
+    - listitem:
+      - link "TV Stand":
+        - /url: /tv-stand
+    - text: ","
+    - listitem:
+      - link "Center Table":
+        - /url: /center-tables
+  - text: "Shop Furniture By Room:"
+  - list:
+    - listitem:
+      - link "Living Room Furniture":
+        - /url: /living-room-furniture
+    - text: ","
+    - listitem:
+      - link "Bedroom Furniture":
+        - /url: /bedroom-furniture
+    - text: ","
+    - listitem:
+      - link "Dining Room Furniture":
+        - /url: /dining-furniture
+    - text: ","
+    - listitem:
+      - link "Study Room Furniture":
+        - /url: /study
+    - text: ","
+    - listitem:
+      - link "Bar Furniture":
+        - /url: /bar-furniture
+    - text: ","
+    - listitem:
+      - link "Balcony Furniture":
+        - /url: /balcony
+  - text: "Popular Decor Categories:"
+  - list:
+    - listitem:
+      - link "Home Decor":
+        - /url: /home-decor
+    - text: ","
+    - listitem:
+      - link "Carpets":
+        - /url: /carpet
+    - text: ","
+    - listitem:
+      - link "Mirrors":
+        - /url: /mirrors
+    - text: ","
+    - listitem:
+      - link "Study Lamps":
+        - /url: /study-lamps
+    - text: ","
+    - listitem:
+      - link "Table Lamps":
+        - /url: /table-lamps
+    - text: ","
+    - listitem:
+      - link "Bed Sheets":
+        - /url: /bedsheets
+    - text: ","
+    - listitem:
+      - link "Floor Lamps":
+        - /url: /floor-lamps
+    - text: ","
+    - listitem:
+      - link "Wall Lights":
+        - /url: /wall-lights
+    - text: ","
+    - listitem:
+      - link "Lighting":
+        - /url: /lighting
+    - text: ","
+    - listitem:
+      - link "Ceiling Lights":
+        - /url: /ceiling-lights
+    - text: ","
+    - listitem:
+      - link "Quilt":
+        - /url: /quilt
+    - text: ","
+    - listitem:
+      - link "Wall Decor":
+        - /url: /wall-decors
+    - text: ","
+    - listitem:
+      - link "Wall Mirror":
+        - /url: /wall-mirrors
+    - text: ","
+    - listitem:
+      - link "Table Decor":
+        - /url: /table-furnishing
+    - text: ","
+    - listitem:
+      - link "Table Cover":
+        - /url: /table-covers
+    - text: ","
+    - listitem:
+      - link "Table Napkin":
+        - /url: /table-napkin
+    - text: ","
+    - listitem:
+      - link "Table Mat":
+        - /url: /table-mat
+    - text: ","
+    - listitem:
+      - link "Cushion Cover":
+        - /url: /cushion-cover
+    - text: ","
+    - listitem:
+      - link "Table Runners":
+        - /url: /table-runners
+    - text: ","
+    - listitem:
+      - link "Home Furnishing":
+        - /url: /home-furnishing
+    - text: ","
+    - listitem:
+      - link "Wall Art":
+        - /url: /wall-art
+    - text: ","
+    - listitem:
+      - link "Showpiece":
+        - /url: /showpieces
+    - text: ","
+    - listitem:
+      - link "Artificial Plants":
+        - /url: /artificial-plants
+    - text: ","
+    - listitem:
+      - link "Photo Frame":
+        - /url: /photo-frames
+    - text: ","
+    - listitem:
+      - link "Candle Stand":
+        - /url: /candle-stand
+    - text: ","
+    - listitem:
+      - link "Clocks":
+        - /url: /clocks
+    - text: ","
+    - listitem:
+      - link "Wall Clocks":
+        - /url: /wall-clocks
+    - text: ","
+    - listitem:
+      - link "Festive Lights":
+        - /url: /festive-lights
+    - text: ","
+    - listitem:
+      - link "Candles":
+        - /url: /candles
+    - text: ","
+    - listitem:
+      - link "Bath Mat":
+        - /url: /bath-mats
+    - text: ","
+    - listitem:
+      - link "Vases":
+        - /url: /vases
+    - text: ","
+    - listitem:
+      - link "Flower Vase":
+        - /url: /flower-vase
+    - text: ","
+    - listitem:
+      - link "Bathroom Accessories":
+        - /url: /bathroom-accessories
+    - text: ","
+    - listitem:
+      - link "Bathroom Mirrors":
+        - /url: /bathroom-mirrors
+  - text: "Popular Mattress Categories:"
+  - list:
+    - listitem:
+      - link "Mattresses":
+        - /url: /mattresses
+    - text: ","
+    - listitem:
+      - link "Single Bed Mattresses":
+        - /url: " /single-bed-mattress"
+    - text: ","
+    - listitem:
+      - link "Double Bed Mattresses":
+        - /url: /double-bed-mattress
+    - text: ","
+    - listitem:
+      - link "King Size Mattresses":
+        - /url: /king-size-mattress
+    - text: ","
+    - listitem:
+      - link "Queen Size Mattresses":
+        - /url: /queen-size-mattress
+    - text: ","
+    - listitem:
+      - link "Foam Mattress":
+        - /url: /foam-mattress
+    - text: ","
+    - listitem:
+      - link "Coir Mattress":
+        - /url: /coir-mattress
+    - text: ","
+    - listitem:
+      - link "Latex Mattress":
+        - /url: /latex-mattress
+    - text: ","
+    - listitem:
+      - link "Spring Mattress":
+        - /url: /spring-mattress
+    - text: ","
+    - listitem:
+      - link "Orthopaedic Mattress":
+        - /url: /orthopaedic-mattress
+  - text: "Popular Tableware Categories:"
+  - list:
+    - listitem:
+      - link "Shot Glass":
+        - /url: /shot-glass
+    - text: ","
+    - listitem:
+      - link "Dinner Plates":
+        - /url: /dinner-plates
+    - text: ","
+    - listitem:
+      - link "Baking Tray":
+        - /url: /baking-tray
+    - text: ","
+    - listitem:
+      - link "Forks":
+        - /url: /fork
+    - text: ","
+    - listitem:
+      - link "Dinner Set":
+        - /url: /dinner-set
+    - text: ","
+    - listitem:
+      - link "Tumbler":
+        - /url: /tumbler
+    - text: ","
+    - listitem:
+      - link "Drinking Glass":
+        - /url: /drinking-glass
+    - text: ","
+    - listitem:
+      - link "Cutlery Holder":
+        - /url: /cutlery-holder
+    - text: ","
+    - listitem:
+      - link "Tissue Holder":
+        - /url: /tissue-holder
+    - text: ","
+    - listitem:
+      - link "Bottle Opener":
+        - /url: /bottle-opener
+    - text: ","
+    - listitem:
+      - link "Spoons":
+        - /url: /spoons
+    - text: ","
+    - listitem:
+      - link "Whiskey Glass":
+        - /url: /whiskey-glass
+    - text: ","
+    - listitem:
+      - link "Kitchen Organizers":
+        - /url: /kitchen-organizers
+    - text: ","
+    - listitem:
+      - link "Hot Pot":
+        - /url: /hot-pot
+    - text: ","
+    - listitem:
+      - link "Chef's Cap":
+        - /url: /chefs-cap
+    - text: ","
+    - listitem:
+      - link "Glass Jars":
+        - /url: /glass-jars
+    - text: ","
+    - listitem:
+      - link "Kitchen Gloves":
+        - /url: /kitchen-gloves
+    - text: ","
+    - listitem:
+      - link "Kitchen Storage Containers":
+        - /url: /kitchen-storage-containers
+    - text: ","
+    - listitem:
+      - link "Bar Tools":
+        - /url: /bar-tools
+    - text: ","
+    - listitem:
+      - link "Masala Box":
+        - /url: /masala-box
+    - text: ","
+    - listitem:
+      - link "Glass Bottles":
+        - /url: /glass-bottles
+    - text: ","
+    - listitem:
+      - link "Coasters":
+        - /url: /coasters
+    - text: ","
+    - listitem:
+      - link "Cutlery Set":
+        - /url: /cutlery-set
+    - text: ","
+    - listitem:
+      - link "Knives Set":
+        - /url: /knives-set
+    - text: ","
+    - listitem:
+      - link "Oven Gloves":
+        - /url: /oven-gloves
+    - text: ","
+    - listitem:
+      - link "Aprons":
+        - /url: /aprons
+    - text: ","
+    - listitem:
+      - link "Cake Stand":
+        - /url: /cake-stand
+    - text: ","
+    - listitem:
+      - link "Fruit Basket":
+        - /url: /fruit-basket
+    - text: ","
+    - listitem:
+      - link "Spice Box":
+        - /url: /spice-box
+    - text: ","
+    - listitem:
+      - link "Beer Glass":
+        - /url: /beer-glass
+    - text: ","
+    - listitem:
+      - link "Bowls":
+        - /url: /bowls
+    - text: ","
+    - listitem:
+      - link "Oil Dispenser":
+        - /url: /oil-dispenser
+    - text: ","
+    - listitem:
+      - link "Housewarming Gifts":
+        - /url: /housewarming-gifts
+  - text: "Delivering in:"
+  - list:
+    - listitem: Aanamalai
+    - text: ","
+    - listitem: Agra
+    - text: ","
+    - listitem: Ahmedabad
+    - text: ","
+    - listitem: Ajmer
+    - text: ","
+    - listitem: Alappuzha
+    - text: ","
+    - listitem: Aler
+    - text: ","
+    - listitem: Alibaug
+    - text: ","
+    - listitem: Aligarh
+    - text: ","
+    - listitem: Alleppey
+    - text: ","
+    - listitem: Alwar
+    - text: ","
+    - listitem: Alwaye
+    - text: ","
+    - listitem: Amaravathi
+    - text: ","
+    - listitem: Ambala
+    - text: ","
+    - listitem: Ambarnath
+    - text: ","
+    - listitem: Amdapur
+    - text: ","
+    - listitem: Amtala
+    - text: ","
+    - listitem: Anakapalle
+    - text: ","
+    - listitem: Anikorai
+    - text: ","
+    - listitem: Arakkonam
+    - text: ","
+    - listitem: Arnala
+    - text: ","
+    - listitem: Arutla
+  - link "... More":
+    - /url: /locations?src=footer
+  - text: "We Accept:"
+  - list:
+    - listitem:
+      - img "Visa color"
+      - img "Mastercard color"
+      - img "Maestro color"
+      - img "Amex color"
+      - img "Rupay color"
+      - img "Bhim upi color"
+  - text: © 2012-2025 Urban Ladder
+- img
+- iframe
+- img "Online Furniture"
+- link "Close":
+  - /url: javascript:void(0);
+- text: SIGN UP FOR SALE UPDATES Get ideas, inspirations & offers in your inbox Be the first to know.
+- textbox "Email Address*"
+- link "Show Password":
+  - /url: javascript:void(0);
+- textbox "Password*"
+- button "Sign Up"
+- text: Have an account?
+- link "Log-in":
+  - /url: javascript:void(0);
+- text: Social sign-in
+- link " Connect ":
+  - /url: /auth/facebook
+- link " Connect ":
+  - /url: /auth/google_oauth2
+- paragraph:
+  - text: By continuing, you agree to our
+  - link "Terms of Service":
+    - /url: https://www.urbanladder.com/terms-of-use
+  - text: and
+  - link "Privacy & Legal Policy":
+    - /url: https://www.urbanladder.com/privacy-policy
+- iframe
+```
+
+# Test source
+
+```ts
+   1 | const { test, expect } = require("@playwright/test");
+   2 | const Home = require("../Pages/Home");
+   3 | const Products = require("../Pages/Products");
+   4 | const ProductDetail = require("../Pages/ProductDetail");
+   5 | const input = require("../data/input.json");
+   6 |
+   7 | test.beforeEach(async ({ page }) => {
+   8 |   const home = new Home(page);
+   9 |   await home.goTo();
+  10 | });
+  11 |
+  12 | test("Bookshelves", async ({ page }) => {
+  13 |   const home = new Home(page);
+  14 |   const product = new Products(page);
+  15 |
+  16 |   await test.step("Click BookShelves", async () => {
+  17 |     await home.clickProduct(input.searchProduct);
+  18 |     await product.closePopup();
+  19 |     await page.waitForTimeout(2000);
+  20 |   });
+  21 |
+  22 |   await test.step("Apply filters", async () => {
+  23 |     await product.filterPriceRange();
+  24 |     await page.waitForTimeout(2000);
+  25 |     await product.clickStorageType();
+  26 |     await page.waitForTimeout(2000);
+  27 |     await product.clickOutOfStock();
+  28 |     await page.waitForTimeout(2000);
+  29 |   });
+  30 |
+  31 |   await test.step("Get BookShelves Details", async () => {
+  32 |     await product.getProducts();
+  33 |     await page.screenshot({ path: 'screenshot/products.png' });
+  34 |   });
+  35 | });
+  36 |
+  37 | test("Display collections", async ({ page }) => {
+  38 |   const home = new Home(page);
+  39 |
+  40 |   await test.step("Get Collection List", async () => {
+  41 |     await home.hoverCollection();
+  42 |     await home.getListItems();
+  43 |     await page.screenshot({ path: 'screenshot/collections.png' });
+  44 |   });
+  45 | });
+  46 |
+  47 | test("Giftcards", async ({ page, context }) => {
+  48 |   const home = new Home(page);
+  49 |   const products = new Products(page);
+  50 |
+  51 |   let product;
+  52 |   let page2;
+  53 |
+  54 |   await test.step("Searching the product", async () => {
+  55 |     await home.fillInput(input.searchInput);
+  56 |     await home.clickSearchButton();
+  57 |   });
+  58 |
+  59 |   await test.step("Click Product and checkout", async () => {
+  60 |     page2 = await products.clickProduct();
+  61 |     await page2.waitForLoadState();
+  62 |     product = new ProductDetail(page2);
+  63 |     await product.clickAddToCart();
+  64 |     await product.clickCheckOut();
+  65 |     await page2.waitForTimeout(3000);
+  66 |   });
+  67 |
+  68 |   await test.step("Enter Invalid email credentials", async () => {
+  69 |     await product.enterEmail(input.invalidEmail);
+  70 |     await page2.keyboard.press("Tab");
+  71 |     await product.getEmailError();
+> 72 |     await page.screenshot({ path: 'screenshot/error.png' });
+     |                ^ Error: page.screenshot: Test timeout of 30000ms exceeded.
+  73 |   });
+  74 | });
+  75 |
+```
