@@ -4,22 +4,11 @@ const Products = require("../Pages/Products");
 const ProductDetail = require("../Pages/ProductDetail");
 const input = require("../data/input.json");
 
-let page;
-let home;
-let products; 
 
-test.beforeAll(async ({ browser }) => {
-  const context = await browser.newContext();
-  page = await context.newPage();
-  home = new Home(page);
-  products = new Products(page); 
-});
-
-test.afterAll(async () => {
-  await page.close();
-});
-
-test("Invalid Email Submission", async () => {
+test("Invalid Email Submission", async ({page}) => {
+  
+  let home = new Home(page);
+  let products = new Products(page); 
   let productDetail;
   let page2; 
 
@@ -72,3 +61,5 @@ test("Invalid Email Submission", async () => {
     await page2.close();
   }
 });
+
+

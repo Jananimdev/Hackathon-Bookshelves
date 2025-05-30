@@ -21,5 +21,6 @@ test("Display Collections Functionality", async () => {
   });
   await test.step("Hover over Collections and get list items", async () => {
     await home.hoverCollection(input.navItem);
+    
   });
 });
