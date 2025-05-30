@@ -1,4 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","17142","Bookshelves","chromium","Mon May 26 17:14:43 IST 2025","passed","Mon May 26 17:15:01 IST 2025","","Home.spec.js","",""
-"","1515","Display collections","chromium","Mon May 26 17:15:12 IST 2025","passed","Mon May 26 17:15:14 IST 2025","","Home.spec.js","",""
-"","19341","Giftcards","chromium","Mon May 26 17:15:14 IST 2025","passed","Mon May 26 17:15:33 IST 2025","","Home.spec.js","",""
+"","20125","Invalid Email Submission","chromium","Fri May 30 11:50:03 IST 2025","passed","Fri May 30 11:50:23 IST 2025","","ProductsSearch.spec.js","",""
+"","12294","Bookshelves Functionality","chromium","Fri May 30 11:49:41 IST 2025","passed","Fri May 30 11:49:53 IST 2025","","Bookshelves.spec.js","",""
+"","5891","Display Collections Functionality","chromium","Fri May 30 11:49:56 IST 2025","passed","Fri May 30 11:50:02 IST 2025","","Collections.spec.js","",""
