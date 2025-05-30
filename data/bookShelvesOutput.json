@@ -6,12 +6,21 @@
       "price": "₹15,469"
     },
     {
+<<<<<<< HEAD
       "title": "Zag Solid Wood Bookshelf in Melamine",
       "price": "₹15,486"
     },
     {
       "title": "Zag Solid Wood Bookshelf in Melamine",
       "price": "₹15,486"
+=======
+      "title": "Oswald Engineered Wood Bookshelf in Classic Walnut",
+      "price": "₹9,539"
+    },
+    {
+      "title": "Elliot Engineered Wood Bookshelf in Classic Walnut",
+      "price": "₹14,999"
+>>>>>>> 54492df8953c23f51a68839f4c11fc3f670d6140
     }
   ]
 }

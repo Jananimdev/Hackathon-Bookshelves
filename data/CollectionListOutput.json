@@ -1,41 +1,96 @@
 {
-  "list_length": 12,
-  "lists": [
-    {
-      "listName": "Oasis"
-    },
-    {
-      "listName": "Explore Oasis\n"
-    },
-    {
-      "listName": "Oasis Collection\n"
-    },
-    {
-      "listName": "Oasis Sofa Collection\n"
-    },
-    {
-      "listName": "Living Room\n"
-    },
-    {
-      "listName": "Bedroom\n"
-    },
-    {
-      "listName": "Dining Room \n"
-    },
-    {
-      "listName": "Terra "
-    },
-    {
-      "listName": "Terra Collection\n"
-    },
-    {
-      "listName": "Living Room \n"
-    },
-    {
-      "listName": "Bedroom \n"
-    },
-    {
-      "listName": "Dining Room \n"
-    }
-  ]
+  "data": {
+    "Furniture Stores in Bangalore": [
+      "Furniture Store In Domlur, Bangalore\n",
+      "Furniture Store In JP Nagar, Bangalore\n",
+      "Urban Ladder Factory Outlet\n",
+      "Furniture Store In Yelahanka, Bangalore\n",
+      "Furniture Store In HSR Layout, Bangalore\n",
+      "Furniture Store In Whitefield - Bangalore\n",
+      "Furniture Store In Bellandur, Bangalore\n"
+    ],
+    "Furniture Stores In Delhi & NCR": [
+      "Furniture Store In Kirti Nagar, New Delhi\n",
+      "Furniture Store In Sector 14, Gurgaon\n",
+      "Furniture Store In Vikas Marg, New Delhi\n",
+      "Furniture Store In M3M Urbana, Gurgaon\n",
+      "Furniture Store In Saket, New Delhi\n"
+    ],
+    "Furniture Stores In Hyderabad": [
+      "Furniture Store In Kondapur, Hyderabad\n",
+      "Furniture Store In Banjara Hills, Hyderabad\n",
+      "Furniture Store in Miyapur, Hyderabad\n",
+      "Furniture Store in LB Nagar, Hyderabad\n"
+    ],
+    "Furniture Stores In Mumbai": [
+      "Furniture Store in Kharghar, Mumbai\n",
+      "Furniture Store In Vashi Satra Plaza, Navi Mumbai\n",
+      "Furniture Store In Lower Parel, Mumbai\n",
+      "Furniture Store In Linking Road, Mumbai\n",
+      "Furniture Store In Juhu\n",
+      "Furniture Store In Ghodbunder Rd, Thane\n",
+      "Furniture Store In Ghatkopar\n"
+    ],
+    "Furniture Stores In Chennai": [
+      "Furniture Store In Nungambakkam, Chennai\n",
+      "Furniture Store In Thoraipakkam, Chennai\n"
+    ],
+    "Furniture Stores In Pune": [
+      "Furniture Store In Creaticity, Pune\n"
+    ],
+    "Furniture Stores In Coimbatore": [
+      "Furniture Store In Avinashi Road, Coimbatore\n"
+    ],
+    "Furniture Stores In Kochi": [
+      "Furniture Store In Edapally, Kochi\n"
+    ],
+    "Furniture Stores in Navi Mumbai": [
+      "Furniture Store In RCP, Navi Mumbai\n"
+    ],
+    "Furniture Stores In Ahmedabad": [
+      "Furniture Store In Titanium One, Ahmedabad\n"
+    ],
+    "Furniture Stores In Visakhapatnam": [
+      "Furniture Store In Siripuram, Visakhapatnam\n"
+    ],
+    "Furniture Stores In Vadodara": [
+      "Furniture Store In Chikuwadi, Vadodara\n"
+    ],
+    "Furniture Stores In Mysore": [
+      "Furniture Store in Kuvempunagar, Mysuru\n"
+    ],
+    "Furniture Stores In Mangalore": [
+      "Furniture Store In City Centre, Mangalore\n"
+    ],
+    "Furniture Stores In Nashik": [
+      "Furniture Store In Lawate Nagar, Nashik\n"
+    ],
+    "Furniture Stores In Lucknow": [
+      "Furniture Store in Vikas Nagar, Lucknow\n"
+    ],
+    "Furniture Stores In Patna": [
+      "Furniture Store in Bailey Rd, Patna\n"
+    ],
+    "Furniture Stores In Kolkata": [
+      "Furniture Store In Axis Mall, Kolkata\n",
+      "Furniture Store In Tollygunje, Kolkata\n"
+    ],
+    "Furniture Stores In Bhubaneswar": [
+      "Furniture Stores In Forum, Bhubaneswar\n"
+    ],
+    "Furniture store in Puducherry": [
+      "Furniture Store in Punducherry\n",
+      "New node\n"
+    ],
+    "Kottayam": [
+      "Furniture Store In Kottayam\n"
+    ],
+    "Vijaywada": [
+      "Furniture Store In Vijaywada\n"
+    ],
+    "Goa": [
+      "Furniture Store In Porvorim Goa\n"
+    ],
+    "Service Products": []
+  }
 }

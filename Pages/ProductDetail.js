@@ -1,26 +1,27 @@
-
 class ProductDetail {
   constructor(page) {
-    this.page = page
-    this.addToCart = page.locator("#add-to-cart-button");
-    this.checkOut = page.locator("#checkout-link");
-    this.email = page.locator("#order_email");
-    this.emailError = page.locator("//label[@for='order_email']");
+    this.page = page;
   }
+
   async clickAddToCart() {
-    await this.addToCart.click();
+    const addToCart = this.page.locator("#add-to-cart-button");
+    await addToCart.click();
   }
+
   async clickCheckOut() {
-    await this.checkOut.first().click();
+    const checkOut = this.page.locator("#checkout-link");
+    await checkOut.first().click();
   }
+
   async enterEmail(emailInp) {
-    await this.email.fill(emailInp);
+    const email = this.page.locator("#order_email");
+    await email.fill(emailInp);
   }
+
   async getEmailError() {
-    await this.emailError.waitFor();
-    const errorMessage = await this.page
-      .locator("//label[@for='order_email']")
-      .textContent();
+    const emailError = this.page.locator("//label[@for='order_email']");
+    await emailError.waitFor();
+    const errorMessage = await emailError.textContent();
     console.log(errorMessage);
   }
 }
