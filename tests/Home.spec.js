@@ -60,6 +60,7 @@ test("Giftcards", async ({ page, context }) => {
     page2 = await products.clickProduct();
     await page2.waitForLoadState();
     product = new ProductDetail(page2);
+    //await product.closePopup();
     await product.clickAddToCart();
     await product.clickCheckOut();
     await page2.waitForTimeout(3000);
