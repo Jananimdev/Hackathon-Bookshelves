@@ -12,6 +12,8 @@ test("Invalid Email Submission", async ({page}) => {
   let productDetail;
   let page2; 
 
+  //to make the report very clear i have added the step in allure it will show very clearly
+
   await test.step("Navigate to Urban Ladder homepage", async () => {
     await home.goTo();
   });
