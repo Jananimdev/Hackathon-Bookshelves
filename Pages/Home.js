@@ -1,3 +1,4 @@
+const { expect } = require('allure-playwright');
 const fs = require('fs')
 const path = require('path')
 
@@ -12,11 +13,13 @@ class Home {
 
   async fillInput(input) {
     const search = this.page.locator('#search');
+    await expect(search).toBeEditable()
     await search.fill(input);
   }
 
   async clickSearchButton() {
     const searchButton = this.page.locator("#search_button");
+    await expect(searchButton).toBeVisible()
     await searchButton.click();
   }
 
@@ -24,6 +27,7 @@ class Home {
     let bookshelves = this.page.locator(`h4:has-text("${product}")`);
     await bookshelves.waitFor();
     await bookshelves.scrollIntoViewIfNeeded();
+    await expect(bookshelves).toBeVisible()
     await bookshelves.click();
   }
 

@@ -1,3 +1,4 @@
+const { expect } = require("allure-playwright");
 const fs = require("fs");
 const path = require("path");
 
@@ -7,9 +8,7 @@ class Products {
   }
 
   async filterPriceRange() {
-    await this.page
-      .locator("li[data-group='price'] div[class='gname']")
-      .hover();
+    await this.page.locator("li[data-group='price'] div[class='gname']").hover(); 
     await this.page.locator("#price_limit_9000-15999").check();
     await this.page.waitForSelector(".productlist.withdivider li", { state: 'visible' }); 
   }
@@ -33,12 +32,14 @@ class Products {
     const popup = this.page.locator("#authentication_popup");
     const closepopup = this.page.locator("//a[normalize-space()='Close']");
     await popup.waitFor({ state: 'visible' }); 
+    await expect(closepopup).toBeVisible()
     await closepopup.click();
     await popup.waitFor({ state: 'hidden' }); 
   }
 
   async clickProduct() {
     const product = this.page.locator('//li[@class="product  hovercard"][1]');
+    await expect(product).toBeEnabled();
     await product.click();
     const newPagePromise = this.page.waitForEvent("popup");
     const newPage = await newPagePromise;

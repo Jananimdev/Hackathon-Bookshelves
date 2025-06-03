@@ -1,3 +1,4 @@
+const {test,expect}=require('@playwright/test');
 class ProductDetail {
   constructor(page) {
     this.page = page;
@@ -5,6 +6,7 @@ class ProductDetail {
 
   async clickAddToCart() {
     const addToCart = this.page.locator("#add-to-cart-button");
+    await expect(addToCart).toBeVisible()
     await addToCart.click();
   }
 
@@ -15,6 +17,7 @@ class ProductDetail {
 
   async enterEmail(emailInp) {
     const email = this.page.locator("#order_email");
+    await expect(email).toBeEditable()
     await email.fill(emailInp);
   }
 

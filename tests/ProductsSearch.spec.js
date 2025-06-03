@@ -5,12 +5,12 @@ const ProductDetail = require("../Pages/ProductDetail");
 const input = require("../data/input.json");
 
 
-test("Invalid Email Submission", async ({page}) => {
-  
+test("Invalid Email Submission", async ({ page }) => {
+
   let home = new Home(page);
-  let products = new Products(page); 
+  let products = new Products(page);
   let productDetail;
-  let page2; 
+  let page2;
 
   //to make the report very clear i have added the step in allure it will show very clearly
 

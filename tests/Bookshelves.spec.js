@@ -31,6 +31,7 @@ test("Bookshelves Functionality", async () => {
 
   await test.step("Apply price filter for bookshelves", async () => {
     await product.filterPriceRange();
+    
   });
 
   await test.step("Apply storage type filter: Open", async () => {
