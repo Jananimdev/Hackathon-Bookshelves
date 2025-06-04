@@ -1,5 +1,5 @@
 const { test } = require("@playwright/test");
-const Home = require("../Pages/Home");
+const HomePage = require("../Pages/HomePage");
 const Products = require("../Pages/Products");
 const input = require("../data/input.json");
 
@@ -10,7 +10,7 @@ let product;
 test.beforeAll(async ({ browser }) => {
   const context = await browser.newContext();
   page = await context.newPage();
-  home = new Home(page);
+  home = new HomePage(page);
   product = new Products(page);
 });
 

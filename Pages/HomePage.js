@@ -2,7 +2,7 @@ const { expect } = require('allure-playwright');
 const fs = require('fs')
 const path = require('path')
 
-class Home {
+class HomePage {
   constructor(page) {
     this.page = page;
   }
@@ -64,4 +64,4 @@ class Home {
   }
 }
 
-module.exports = Home;
+module.exports = HomePage;

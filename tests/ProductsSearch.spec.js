@@ -1,5 +1,5 @@
 const { test } = require("@playwright/test");
-const Home = require("../Pages/Home");
+const HomePage = require("../Pages/HomePage");
 const Products = require("../Pages/Products");
 const ProductDetail = require("../Pages/ProductDetail");
 const input = require("../data/input.json");
@@ -7,7 +7,7 @@ const input = require("../data/input.json");
 
 test("Invalid Email Submission", async ({ page }) => {
 
-  let home = new Home(page);
+  let home = new HomePage(page);
   let products = new Products(page);
   let productDetail;
   let page2;
